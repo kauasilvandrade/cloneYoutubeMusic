@@ -1,0 +1,30 @@
+.container {
+    width: 30rem;
+
+    border: 1px solid #494E52;
+    border-radius: 10px;
+    
+    overflow: hidden;
+
+    display: flex;
+}
+
+.container button, .container input {
+    background-color: rgba(255, 255, 255, .15);
+    border: none;
+}
+
+.container button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.container input {
+    width: 100%;
+    font-size: var(--fs-base);
+    color: var(--text-color-primary);
+}
+
+.container input::placeholder {
+    font-weight: 600;
+}
