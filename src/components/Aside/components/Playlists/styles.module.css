@@ -1,7 +1,7 @@
 .container {
   padding-right: 0.5rem;
   overflow-y: auto;
-  height: 13rem;
+  height: 100%;
 }
 
 .container::-webkit-scrollbar {
