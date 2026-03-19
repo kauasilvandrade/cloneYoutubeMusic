@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    gap: 1.2rem;
+
+    margin-bottom: 1rem;
+}
+
+.container button {
+    background-color: transparent;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: var(--bg-color-playlist-hover);
+}
+
+.container img {
+    width: 5rem;
+}

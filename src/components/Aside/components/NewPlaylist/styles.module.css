@@ -1,0 +1,23 @@
+.container {
+    background-color: var(--bg-color-links-1);
+    color: var(--text-color-primary);
+    font-size: var(--fs-sm-2);
+
+    width: 11.7rem;
+    padding: 0.5rem;
+    margin: 3rem auto 1.3rem auto;
+    
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+
+    cursor: pointer;
+    transition: .2s;
+}
+
+.container:hover {
+    background-color: var(--bg-color-links-hover);
+}

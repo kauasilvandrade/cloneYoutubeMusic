@@ -1,0 +1,40 @@
+.container {
+    position: relative;
+}
+
+.container::after {
+    content: '';
+    width: 11.7rem;
+    height: 2px;
+    background-color: var(--border-color-aside);
+
+    position: absolute;
+    left: 1rem;
+    bottom: -1.5rem;
+}
+
+.container li {}
+
+.container li a {
+    color: var(--text-color-primary);
+    padding-left: 1rem;
+    padding-block: 1rem;
+    
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.container a[href="Home"] {
+    background-color: var(--bg-color-links-1);
+    border-radius: 10px;
+}
+
+.container li a:hover { 
+    background-color: var(--bg-color-links-hover);
+}
+
+.container li a img {}

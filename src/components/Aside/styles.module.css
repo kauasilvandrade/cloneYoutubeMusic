@@ -1,0 +1,11 @@
+.container {
+    background-color: var(--bg-color-aside);
+    height: 100vh;
+    width: 15rem;
+
+    padding: 0.5rem;
+    border-right: 1px solid var(--border-color-aside);
+
+    position: fixed;
+
+}

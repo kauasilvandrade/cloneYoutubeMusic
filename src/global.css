@@ -1,12 +1,16 @@
 :root {
-    --bg-color-body: #030303;
+    --bg-color-body: linear-gradient(45deg,#020202 0%,#0a0515 40%,#1a0505 100%);
 
     --text-color-primary: #ffffff;
     --text-color-secondary: #5C5C5C;
 
-    --bg-color-links: #38343D;
+    --bg-color-links-1: #1f1d22;
+    --bg-color-links-2: #38343D;
     --bg-color-links-hover: #37333D;
     --bg-color-playlist-hover: #353536;
+
+    --bg-color-aside: #030303;
+    --border-color-aside: #2c2f28;
 
     --ff-sans: "Roboto", sans-serif;
     --fs-sm-1: 0.75em;
@@ -23,7 +27,10 @@
 
 body {
     font-family: var(--ff-sans);
-    background-color: var(--bg-color-body);
+    background-image: var(--bg-color-body);
+    color: var(--text-color-primary);
+    width: 100vw;
+    height: 100vh;
 }
 
 html, body, div, span, applet, object, iframe,
