@@ -1,15 +1,21 @@
 .container {
-    background-color: black;
+    background-color: transparent;
     padding-right: 7rem;
     padding-block: 1rem;
-    border-bottom: 1px solid #494E52;
-
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     
     position: fixed;
     width: 100%;
+
+    transition: .1s;
     z-index: 1;
+}
+
+.scrolled  {
+    background-color: black;
+    border-bottom: 1px solid #494E52;
 }
 
