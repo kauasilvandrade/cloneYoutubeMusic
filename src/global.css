@@ -70,6 +70,10 @@ figcaption {
     border: 0;
 }
 
+figcaption {
+    display: none;
+}
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;

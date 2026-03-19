@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.container button {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container figure img {
+    border-radius: 50%;
+    width: 2rem;
+    cursor: pointer;
+}
