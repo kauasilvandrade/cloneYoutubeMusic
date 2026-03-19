@@ -6,10 +6,10 @@ import { Playlists } from "./components/Playlists"
 
 export function Aside() {
     return (
-        <div className={styles.container}>
+        <aside className={styles.container}>
             <Menu />
             <NewPlaylist />
             <Playlists />
-        </div>
+        </aside>
     )
 }

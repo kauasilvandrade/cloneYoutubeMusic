@@ -9,7 +9,7 @@ export function Header() {
         <header className={styles.container}>
             <Logo />
             <Search />
-            <UserProfile />
+            <UserProfile /> 
         </header>
     )
 }

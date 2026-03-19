@@ -4,8 +4,8 @@
     width: 15rem;
 
     padding: 0.5rem;
+    padding-top: 6rem;
     border-right: 1px solid var(--border-color-aside);
 
     position: fixed;
-    display: none;
 }

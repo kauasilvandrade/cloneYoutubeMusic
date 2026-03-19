@@ -1,11 +1,11 @@
 .container {
   padding-right: 0.5rem;
   overflow-y: auto;
-  height: 20rem;
+  height: 13rem;
 }
 
 .container::-webkit-scrollbar {
-  width: 12px;
+  width: 7px;
 }
 
 .container::-webkit-scrollbar-thumb {

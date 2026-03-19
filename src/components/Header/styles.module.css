@@ -1,7 +1,15 @@
 .container {
-    padding: 1.5rem 0;
-    border-bottom: 2px solid white;
+    background-color: black;
+    padding-right: 7rem;
+    padding-block: 1rem;
+    border-bottom: 1px solid #494E52;
 
     display: flex;
-    gap: 10rem;
+    justify-content: space-between;
+    align-items: center;
+    
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
+
