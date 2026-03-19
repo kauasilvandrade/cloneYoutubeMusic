@@ -1,9 +1,9 @@
 import styles from "./styles.module.css"
 
-import  Home  from "./../../../../assets/homeIcon.svg"
-import  Explorer  from "./../../../../assets/explorerIcon.svg"
-import  Library  from "./../../../../assets/librayIcon.svg"
-import  Upgrade  from "./../../../../assets/upgradeIcon.svg"
+import  Home  from "./../../../../assets/icons/homeIcon.svg"
+import  Explorer  from "./../../../../assets/icons/explorerIcon.svg"
+import  Library  from "./../../../../assets/icons/librayIcon.svg"
+import  Upgrade  from "./../../../../assets/icons/upgradeIcon.svg"
 
 export function Menu() {
     return (

@@ -1,6 +1,6 @@
 import styles from "./styles.module.css"
 
-import LogoIcon from "./../../../../assets/logo.svg"
+import LogoIcon from "./../../../../assets/global/logo.svg"
 
 import { Menu } from "lucide-react"
 

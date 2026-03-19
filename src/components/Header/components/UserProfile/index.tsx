@@ -1,7 +1,7 @@
 import styles from "./styles.module.css"
 
-import TransmissionIcon from "./../../../../assets/transmissionIcon.svg"
-import User from "./../../../../assets/user.jpg"
+import TransmissionIcon from "./../../../../assets/icons/transmissionIcon.svg"
+import User from "./../../../../assets/global/user.jpg"
 
 export function UserProfile() {
     return (
