@@ -8,6 +8,7 @@ type Playlist = {
     id: number,
     name: string,
     author: string,
+    image: string
 }
 
 export function Playlists() {
@@ -16,7 +17,7 @@ export function Playlists() {
 
     useEffect(() => {
         async function fetchPlaylist() {
-            const response = await fetch("./public/playlists.json")
+            const response = await fetch("./public/utils/playlists.json")
             const data = await response.json()
             setPlaylists(data)
         }

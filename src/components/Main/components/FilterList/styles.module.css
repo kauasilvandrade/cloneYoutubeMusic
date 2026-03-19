@@ -1,0 +1,33 @@
+.container {
+    padding: 1rem;
+    margin-bottom: 2rem;
+
+    display: flex;
+    gap: 1rem;
+
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.container li a {
+    background-color: var(--bg-color-links-2);
+    color: var(--text-color-primary);
+    font-size: var(--fs-sm-2);
+
+    padding: 0.5rem 0.8rem;
+    border-radius: 10px;
+}
+
+.container::-webkit-scrollbar {
+    width: 7px;
+    height: 11px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: #565656;
+    border-radius: 10px;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
