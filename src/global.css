@@ -29,8 +29,11 @@ body {
     font-family: var(--ff-sans);
     background-image: var(--bg-color-body);
     color: var(--text-color-primary);
-    width: 100vw;
     height: 100vh;
+}
+
+main {
+    padding-left: 17rem;
 }
 
 html, body, div, span, applet, object, iframe,
