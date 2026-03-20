@@ -3,3 +3,29 @@
    padding: 7rem 0 2rem 16.6rem;;
    margin: auto;
 }
+
+@media (max-width: 1800px) {
+   .container {
+      max-width: 90rem;
+   }
+}
+
+@media (max-width: 1520px) {
+   .container {
+      max-width: 74rem;
+   }
+}
+
+@media (max-width: 1200px) {
+   .container {
+      max-width: 69rem;
+      padding-right: 4rem;
+   }
+}
+
+@media (max-width: 1080px) {
+   .container {
+      max-width: 100%;
+      padding: 6rem 2rem 2rem 2rem;
+   }
+}

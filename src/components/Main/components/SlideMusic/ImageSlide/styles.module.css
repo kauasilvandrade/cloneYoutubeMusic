@@ -3,8 +3,19 @@
     position: relative;
 }
 
-.container:hover img {
-    filter: brightness(10px);
+.container:hover::before {
+    background-color: rgba(0, 0, 0, 0.362);
+}
+
+.container::before {
+    content: '';
+    border-radius: 10px;
+
+    position: absolute;
+    width: 100%;
+    height: 14rem;
+
+    z-index: 1;
 }
 
 .container__slideImg {
@@ -30,8 +41,34 @@
     transform: translate(-50%, -50%);
     left: 50%;
     top: 40%;
+    z-index: 1;
 }
 
 .playIcon img {
     width: 4rem;
+}
+
+.container:hover .moreIcon {
+    display: flex;
+}
+
+.moreIcon {
+    position: absolute;
+    right: 0.5rem;
+    top: 1rem;
+    
+    width: 2rem;
+    height: 2rem;
+    padding-inline: 0.2rem;
+    border-radius: 50%;
+    
+    display: none;
+    align-items: center;
+    justify-content: center;
+    
+    z-index: 1;
+}
+
+.moreIcon:hover {
+    background-color: rgba(169, 152, 152, 0.453)
 }

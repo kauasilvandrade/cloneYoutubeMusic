@@ -29,3 +29,21 @@
 .container input::placeholder {
     font-weight: 600;
 }
+
+@media (max-width: 1800px) {
+    .container {
+        margin-right: 23rem;
+    }
+}
+
+@media (max-width: 1520px) {
+    .container {
+        margin-right: 18.5rem;
+    }
+}
+
+@media (max-width: 1370px) {
+    .container {
+        margin-right: 7.5rem;
+    }
+}

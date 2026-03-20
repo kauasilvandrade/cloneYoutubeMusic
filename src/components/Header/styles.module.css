@@ -19,3 +19,10 @@
     border-bottom: 1px solid #494E52;
 }
 
+@media (max-width: 1200px) {
+    .container {
+        padding-right: 2rem;
+    }
+}
+
+

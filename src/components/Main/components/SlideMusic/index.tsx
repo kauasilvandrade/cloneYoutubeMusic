@@ -1,8 +1,12 @@
 import styles from "./styles.module.css"
 
+import { useRef, useState } from "react"
+
 import { ChevronRight, ChevronLeft } from "lucide-react"
 
 import { Swiper, SwiperSlide } from "swiper/react"
+import { Scrollbar } from "swiper/modules"
+import { Navigation } from "swiper/modules"
 
 import { ImageSlide } from "./ImageSlide/index.tsx"
 
@@ -14,26 +18,43 @@ type Props = {
 }
 
 export function SlideMusic({ title, playlist }: Props) {
+
+    const prevRef = useRef<HTMLButtonElement | null>(null)
+    const nextRef = useRef<HTMLButtonElement | null>(null)
+
     return (
         <div className={styles.container}>  
         
             <div className={styles.container__actions}>
                 <h2>{title}</h2>
                 <div className={styles.container__actionsButtons}>
-                    <button><ChevronLeft color="white" /></button>
-                    <button><ChevronRight color="white" /></button>
+                    <button 
+                    ref={prevRef}
+                    ><ChevronLeft color="white" /></button>
+                    <button 
+                    ref={nextRef}
+                    ><ChevronRight color="white" /></button>
                 </div>
             </div>
 
             <Swiper
+                modules={[Scrollbar, Navigation]}
                 slidesPerView={4}
                 spaceBetween={20}
+                onBeforeInit={(swiper) => {
+                    const navigation =swiper.params.navigation as any
+
+                    if (swiper.params.navigation) {
+                        navigation.prevEl = prevRef.current
+                        navigation.nextEl = nextRef.current
+                    }
+                }}
+                navigation
             >
                 {
                     playlist.map((playlist) => (
-                        <SwiperSlide>
+                        <SwiperSlide key={playlist.id}>
                             <ImageSlide 
-                                key={playlist.id}
                                 musicalImage={playlist.musicalImage}
                                 name={playlist.name}
                                 artist={playlist.artist}

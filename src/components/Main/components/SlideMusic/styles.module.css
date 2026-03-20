@@ -1,6 +1,5 @@
 .container {
-    overflow-x: auto;
-    margin-bottom: 7rem;
+    margin-bottom: 4rem;
 }
 
 .container__actions {
@@ -37,5 +36,11 @@
 
 .container__actionsButtons button:hover {
     background-color: rgba(255,255,255,.1);
+}
+
+.disabled {
+    opacity: 0.3;
+    pointer-events: none;
+    cursor: default;
 }
 

@@ -1,5 +1,7 @@
 import styles from "./styles.module.css"
 
+import { EllipsisVertical } from "lucide-react"
+
 type Props = {
     musicalImage: string
     name: string
@@ -17,7 +19,11 @@ export function ImageSlide({ musicalImage, name, artist, numberOfViews }: Props)
             <span>{artist} • {numberOfViews}</span>
 
             <div className={styles.playIcon}>
-                <img src={PlayIcon} alt="" />
+                <img src={PlayIcon} alt="PLay Icon" />
+            </div>
+
+            <div className={styles.moreIcon}>
+                <EllipsisVertical size={20} />
             </div>
         </a>
     )

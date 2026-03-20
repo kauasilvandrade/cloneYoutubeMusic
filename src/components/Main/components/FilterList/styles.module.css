@@ -1,6 +1,7 @@
 .container {
     padding: 1rem 0;
-    margin-bottom: 2rem;
+    padding-bottom: 1.3rem;
+    margin-bottom: 1.3rem;
 
     display: flex;
     gap: 1rem;
@@ -23,8 +24,8 @@
 }
 
 .container::-webkit-scrollbar {
-    width: 7px;
-    height: 11px;
+    width: 1px;
+    height: 9px;
 }
 
 .container::-webkit-scrollbar-thumb {
