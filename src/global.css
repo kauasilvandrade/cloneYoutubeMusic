@@ -1,5 +1,5 @@
 :root {
-    --bg-color-body: linear-gradient(45deg,#020202 0%,#0a0515 40%,#1a0505 100%);
+    --bg-color-body: linear-gradient(30deg, #020202 0%, #0a0515 40%, #091e27 100%);
 
     --text-color-primary: #ffffff;
     --text-color-secondary: #5C5C5C;
@@ -26,10 +26,12 @@
 }
 
 body {
-    font-family: var(--ff-sans);
     background-image: var(--bg-color-body);
+    background-repeat: no-repeat;
+    font-family: var(--ff-sans);
+
     color: var(--text-color-primary);
-    height: 100vh;
+    height: 100%;
 }
 
 html, body, div, span, applet, object, iframe,

@@ -1,0 +1,41 @@
+.container {
+    overflow-x: auto;
+    margin-bottom: 7rem;
+}
+
+.container__actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 1.3rem;
+}
+
+.container__actions h2 {
+    font-size: var(--fs-lg);
+}
+
+.container__actionsButtons {
+    display: flex;
+    gap: 1rem;
+}
+
+.container__actionsButtons button {
+    background-color: transparent;
+    width: 2.5rem;
+    height: 2.5rem;
+    
+    border: 1px solid #494E52;
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    cursor: pointer;
+}
+
+.container__actionsButtons button:hover {
+    background-color: rgba(255,255,255,.1);
+}
+

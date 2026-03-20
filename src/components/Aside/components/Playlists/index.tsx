@@ -17,7 +17,7 @@ export function Playlists() {
 
     useEffect(() => {
         async function fetchPlaylist() {
-            const response = await fetch("./public/utils/playlists.json")
+            const response = await fetch("./utils/playlists.json")
             const data = await response.json()
             setPlaylists(data)
         }

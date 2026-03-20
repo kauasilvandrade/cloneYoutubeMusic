@@ -1,5 +1,5 @@
 .container {
-    padding: 1rem;
+    padding: 1rem 0;
     margin-bottom: 2rem;
 
     display: flex;
@@ -17,6 +17,7 @@
     padding: 0.5rem 0.8rem;
     border-radius: 10px;
 }
+
 .container li a:hover {
     background-color: var(--bg-color-links-hover);
 }
