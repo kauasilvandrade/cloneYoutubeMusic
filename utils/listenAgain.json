@@ -4,55 +4,55 @@
         "name": "21 Questions (part. Nate Doff)",
         "artist": "50 cent",
         "numberOfViews": "725 mi de visualizações",
-        "musicalImage": "/images/listenAgain/50cent.jpg"
+        "musicalImage": "public/images/listenAgain/50cent.jpg"
     },
     {
         "id": 2,
         "name": "AVADA KEDAVRA",
         "artist": "7 Minutoz",
         "numberOfViews": "1,1 mi de visualizações",
-        "musicalImage": "/images/listenAgain/avadaKedavra.jpg"
+        "musicalImage": "public/images/listenAgain/avadaKedavra.jpg"
     },
     {
         "id": 3,
         "name": "Babydoll",
         "artist": "Dominic Fike",
         "numberOfViews": "14 mi de visualizações",
-        "musicalImage": "/images/listenAgain/babydoll.jpg"
+        "musicalImage": "public/images/listenAgain/babydoll.jpg"
     },
     {
         "id": 4,
         "name": "Creep",
         "artist": "Radiohead",
         "numberOfViews": "1,4 bi de visualizações",
-        "musicalImage": "/images/listenAgain/creep.jpg"
+        "musicalImage": "public/images/listenAgain/creep.jpg"
     },
     {
         "id": 5,
         "name": "Decode",
         "artist": "Paramore",
         "numberOfViews": "600 mi de visualizações",
-        "musicalImage": "/images/listenAgain/decode.jpg"
+        "musicalImage": "public/images/listenAgain/decode.jpg"
     },
     {
         "id": 6,
         "name": "Fear of the Dark",
         "artist": "Iron Maiden",
         "numberOfViews": "181 mi de visualizações",
-        "musicalImage": "/images/listenAgain/fearOfTheDark.jpg"
+        "musicalImage": "public/images/listenAgain/fearOfTheDark.jpg"
     },
     {
         "id": 7,
         "name": "Gunslinger",
         "artist": "Avanged Sevenfold",
         "numberOfViews": "42 mi de visualizações",
-        "musicalImage": "/images/listenAgain/gunslinger.avif"
+        "musicalImage": "public/images/listenAgain/gunslinger.avif"
     },
     {
         "id": 8,
         "name": "JUDAS",
         "artist": "7 Minutoz",
         "numberOfViews": "12 mi de visualizações",
-        "musicalImage": "/images/listenAgain/judas.png"
+        "musicalImage": "public/images/listenAgain/judas.png"
     }
 ]

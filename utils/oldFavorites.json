@@ -4,55 +4,55 @@
         "name": "Video Games",
         "artist": "Lana Del Ray",
         "numberOfViews": "383 mi de visualizações",
-        "musicalImage": "/images/oldFavorites/lanaDelRay.avif"
+        "musicalImage": "public/images/oldFavorites/lanaDelRay.avif"
     },
     {
         "id": 2,
         "name": "LeavingTonight",
         "artist": "The Neighbourhood",
         "numberOfViews": "4,9 mi de visualizações",
-        "musicalImage": "/images/oldFavorites/leavingTonight.avif"
+        "musicalImage": "public/images/oldFavorites/leavingTonight.avif"
     },
     {
         "id": 3,
         "name": "Monolith",
         "artist": "Twin Tribes",
         "numberOfViews": "1,2 mi de visualizações",
-        "musicalImage": "/images/oldFavorites/monolith.jpg"
+        "musicalImage": "public/images/oldFavorites/monolith.jpg"
     },
     {
         "id": 4,
         "name": "My Love Mine All Mine",
         "artist": "Mitski",
         "numberOfViews": "72 mi de visualizações",
-        "musicalImage": "/images/oldFavorites/myLoveMineAllMine.png"
+        "musicalImage": "public/images/oldFavorites/myLoveMineAllMine.png"
     },
     {
         "id": 5,
         "name": "O Children",
         "artist": "Nick Cave",
         "numberOfViews": "2,3 mi de visualizações",
-        "musicalImage": "/images/oldFavorites/oChildren.jpg"
+        "musicalImage": "public/images/oldFavorites/oChildren.jpg"
     },
     {
         "id": 6,
         "name": "Sudno",
         "artist": "Molchat Doma",
         "numberOfViews": "46 mi de visualizações",
-        "musicalImage": "/images/oldFavorites/sudno.jpg"
+        "musicalImage": "public/images/oldFavorites/sudno.jpg"
     },
     {
         "id": 7,
         "name": "Te Falta Ódio",
         "artist": "7 Minutoz",
         "numberOfViews": "11 mi de visualizações",
-        "musicalImage": "/images/oldFavorites/teFaltaOdio.jpg"
+        "musicalImage": "public/images/oldFavorites/teFaltaOdio.jpg"
     },
     {
         "id": 8,
         "name": "Undressed",
         "artist": "sombr",
         "numberOfViews": "20 mi de visualizações",
-        "musicalImage": "/images/oldFavorites/undressed.avif"
+        "musicalImage": "public/images/oldFavorites/undressed.avif"
     }
 ]
