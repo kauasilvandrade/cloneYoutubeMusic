@@ -4,69 +4,69 @@
         "name": "All Hope Is Gone",
         "artist": "Slipknot",
         "numberOfViews": "5,4 mi de visualizações",
-        "musicalImage": "/images/albums/allHopeIsGone.jpg"
+        "musicalImage": "images/albums/allHopeIsGone.jpg"
     },
     {
         "id": 2,
         "name": "Back To Back",
         "artist": "Amy Winehouse",
         "numberOfViews": "1,4 bi de visualizações",
-        "musicalImage": "/images/albums/backToBack.jpg"
+        "musicalImage": "images/albums/backToBack.jpg"
     },
     {
         "id": 3,
         "name": "Bewitched",
         "artist": "Laufey",
         "numberOfViews": "5,4 mi de visualizações",
-        "musicalImage": "/images/albums/bewitched.avif"
+        "musicalImage": "images/albums/bewitched.avif"
     },
     {
         "id": 4,
         "name": "City Of Evil",
         "artist": "Avanged Sevenfold",
         "numberOfViews": "2 mi de visualizações",
-        "musicalImage": "/images/albums/cityOfEvil.jpg"
+        "musicalImage": "images/albums/cityOfEvil.jpg"
     },
     {
         "id": 5,
         "name": "Homem Torto",
         "artist": "Kamaitachi",
         "numberOfViews": "26 mi de visualizações",
-        "musicalImage": "/images/albums/homemTorto.avif"
+        "musicalImage": "images/albums/homemTorto.avif"
     },
     {
         "id": 6,
         "name": "Hybrid Theory",
         "artist": "Link Park",
         "numberOfViews": "7,7 mi de visualizações",
-        "musicalImage": "/images/albums/hybridTheory.jpg"
+        "musicalImage": "images/albums/hybridTheory.jpg"
     },
     {
         "id": 7,
         "name": "Meliora",
         "artist": "Ghost",
         "numberOfViews": "6,2 mi de visualizações",
-        "musicalImage": "/images/albums/meliora.jpg"
+        "musicalImage": "images/albums/meliora.jpg"
     },
     {
         "id": 8,
         "name": "Meteora",
         "artist": "Link Park",
         "numberOfViews": "1,8 mi de visualizações",
-        "musicalImage": "/images/albums/meteora.avif"
+        "musicalImage": "images/albums/meteora.avif"
     },
     {
         "id": 9,
         "name": "Nightmare",
         "artist": "Avanged Sevenfold",
         "numberOfViews": "237 mi de visualizações",
-        "musicalImage": "/images/albums/nightmare.avif"
+        "musicalImage": "images/albums/nightmare.avif"
     },
     {
         "id": 10,
         "name": "O Tempo É Agora",
         "artist": "Anavitória",
         "numberOfViews": "3,7 mi de visualizações",
-        "musicalImage": "/images/albums/oTempoEagora.avif"
+        "musicalImage": "images/albums/oTempoEagora.avif"
     }
 ]

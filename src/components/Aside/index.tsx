@@ -4,9 +4,13 @@ import { Menu } from "./components/Menu"
 import { NewPlaylist } from "./components/NewPlaylist"
 import { Playlists } from "./components/Playlists"
 
-export function Aside() {
+type AsideProps = {
+    isOpen: boolean
+}
+
+export function Aside({ isOpen }: AsideProps) {
     return (
-        <aside className={styles.container}>
+        <aside className={`${styles.container} ${isOpen ? styles.open : ""}`}>
             <Menu />
             <NewPlaylist />
             <Playlists />

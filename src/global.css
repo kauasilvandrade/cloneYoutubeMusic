@@ -1,5 +1,8 @@
+@import "swiper/css";
+@import "swiper/css/scrollbar";
+
 :root {
-    --bg-color-body: linear-gradient(30deg, #020202 0%, #0a0515 40%, #091e27 100%);
+    --bg-color-body: linear-gradient(to top, #020202 20%, #020202 82%, #0f1032 105%);
 
     --text-color-primary: #ffffff;
     --text-color-secondary: #5C5C5C;

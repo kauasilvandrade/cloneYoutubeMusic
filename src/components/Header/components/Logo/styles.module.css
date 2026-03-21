@@ -26,3 +26,13 @@
 .container img {
     width: 5rem;
 }
+
+@media (max-width: 1080px) {
+    .container {
+        margin-left: 0.4rem;
+    }
+    
+    .container img {
+        margin-left: 3rem;
+    }
+}

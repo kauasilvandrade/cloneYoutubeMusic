@@ -1,6 +1,6 @@
 import styles from "./styles.module.css"
 
-import { useRef, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 
 import { ChevronRight, ChevronLeft } from "lucide-react"
 
@@ -19,8 +19,34 @@ type Props = {
 
 export function SlideMusic({ title, playlist }: Props) {
 
+    const [slidePerView, setSlidePerview] = useState(4)
+
     const prevRef = useRef<HTMLButtonElement | null>(null)
     const nextRef = useRef<HTMLButtonElement | null>(null)
+
+    useEffect(() => {
+
+        function handleResize() {
+            if (window.innerWidth < 500) {
+                setSlidePerview(1)
+            } else if (window.innerWidth < 720) {
+                setSlidePerview(2)
+            } else if (window.innerWidth < 1080) {
+                setSlidePerview(3)
+            } else {
+                setSlidePerview(4)
+            }
+        }
+
+        handleResize()
+
+        window.addEventListener("resize", handleResize)
+
+        return () => {
+            window.removeEventListener("resize", handleResize)
+        }
+
+    }, [])
 
     return (
         <div className={styles.container}>  
@@ -39,7 +65,7 @@ export function SlideMusic({ title, playlist }: Props) {
 
             <Swiper
                 modules={[Scrollbar, Navigation]}
-                slidesPerView={4}
+                slidesPerView={slidePerView}
                 spaceBetween={20}
                 onBeforeInit={(swiper) => {
                     const navigation =swiper.params.navigation as any

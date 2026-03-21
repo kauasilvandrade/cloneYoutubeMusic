@@ -44,3 +44,8 @@
     cursor: default;
 }
 
+@media (max-width: 1080px) {
+    .container h2 {
+        font-size: 2em;
+    }
+}

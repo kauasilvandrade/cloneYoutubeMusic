@@ -4,10 +4,14 @@ import LogoIcon from "./../../../../assets/global/logo.svg"
 
 import { Menu } from "lucide-react"
 
-export function Logo () {
+type LogoProps = {
+    toggleAside: () => void
+}
+
+export function Logo({ toggleAside }: LogoProps) {
     return (
         <div className={styles.container}>
-            <button><Menu size={25} color="white" /></button>
+            <button onClick={toggleAside} ><Menu size={25} color="white" /></button>
             <img src={LogoIcon} alt="Logo Youtube Music" />
         </div>
     )

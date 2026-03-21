@@ -38,12 +38,13 @@
 
 @media (max-width: 1520px) {
     .container {
-        margin-right: 18.5rem;
-    }
-}
-
-@media (max-width: 1370px) {
-    .container {
         margin-right: 7.5rem;
     }
 }
+
+@media (max-width: 1080px) {
+    .container {
+        display: none;
+    }
+}
+

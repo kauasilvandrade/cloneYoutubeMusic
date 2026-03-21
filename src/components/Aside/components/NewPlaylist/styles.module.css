@@ -21,3 +21,9 @@
 .container:hover {
     background-color: var(--bg-color-links-hover);
 }
+
+@media (max-width: 1080px) {
+    .container {
+        display: none;
+    }
+}

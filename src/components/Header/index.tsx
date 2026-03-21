@@ -6,7 +6,11 @@ import { Logo } from "./components/Logo"
 import { Search } from "./components/Search"
 import { UserProfile } from "./components/UserProfile"
 
-export function Header() {
+type HeaderProps = {
+    toggleAside: () => void
+}
+
+export function Header({ toggleAside }: HeaderProps) {
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
@@ -27,7 +31,7 @@ export function Header() {
 
     return (
         <header className={`${styles.container} ${scrolled ? styles.scrolled : ""}`}>
-            <Logo />
+            <Logo toggleAside={toggleAside} />
             <Search />
             <UserProfile /> 
         </header>

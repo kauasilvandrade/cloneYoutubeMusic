@@ -37,4 +37,18 @@
     background-color: var(--bg-color-links-hover);
 }
 
+.container li a span {
+    transition: .3s;
+}
+
 .container li a img {}
+
+@media (max-width: 1080px) {
+    .container::after {
+        display: none;
+    }
+
+    .container li a span {
+        opacity: 0;
+    }
+}

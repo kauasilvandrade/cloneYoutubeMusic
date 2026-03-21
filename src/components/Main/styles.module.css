@@ -26,6 +26,12 @@
 @media (max-width: 1080px) {
    .container {
       max-width: 100%;
+      padding: 6rem 2rem 2rem 7rem;
+   }
+}
+
+@media (max-width: 550px) {
+   .container {
       padding: 6rem 2rem 2rem 2rem;
    }
 }

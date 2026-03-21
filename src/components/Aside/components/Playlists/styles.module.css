@@ -2,6 +2,8 @@
   padding-right: 0.5rem;
   overflow-y: auto;
   height: 100%;
+
+  transition: .3s;
 }
 
 .container::-webkit-scrollbar {
@@ -15,4 +17,10 @@
 
 .container::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+@media (max-width: 1080px) {
+    .container {
+        opacity: 0;
+    }
 }

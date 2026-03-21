@@ -9,16 +9,28 @@ export function Menu() {
     return (
         <ul className={styles.container}>
             <li>
-                <a href="Home"><img src={Home} alt="Logo Home" /> Início</a>
+                <a href="Home">
+                    <img src={Home} alt="Logo Home" /> 
+                    <span>Início</span>
+                </a>
             </li>
             <li>
-                <a href="#"><img src={Explorer} alt="Logo Explorer" /> Explorar</a>
+                <a href="#">
+                    <img src={Explorer} alt="Logo Explorer" /> 
+                    <span>Explorar</span>
+                </a>
             </li>
             <li>
-                <a href="#"><img src={Library} alt="Logo Library" /> Biblioteca</a>
+                <a href="#">
+                    <img src={Library} alt="Logo Library" /> 
+                    <span>Biblioteca</span>
+                </a>
             </li>
             <li>
-                <a href="#"><img src={Upgrade} alt="Logo Upgrade" /> Upgrade</a>
+                <a href="#">
+                    <img src={Upgrade} alt="Logo Upgrade" /> 
+                    <span>Upgrade</span>
+                </a>
             </li>
         </ul>
     )
